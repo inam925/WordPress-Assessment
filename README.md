@@ -12,8 +12,10 @@ WordPress Assessment Task
 2) Five random quotes will be displayed.
 
 ![Screenshot](Results-when-user-is-logged-in.png)
+
 Response from Ajax endpoint when user is logged in.
 ![Screenshot](Results-when-user-is-logged-out.png)
+
 Response from Ajax endpoint when user is logged out.
 
 Shortcode to display countries names & flags is [display_countries].
