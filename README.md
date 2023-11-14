@@ -10,6 +10,12 @@ WordPress Assessment Task
 1) Use shortcode [min_ec_kanye_quotes] to display kanye quotes.
 2) Five random quotes will be displayed.
 
+![Screenshot](get-coffee.png)
+Clicking on Get Coffee button will redirect to a coffee image link.
+Use shortcode [min_ec_get_coffee] to display coffee button.
+
+AJAX EndPoint
+Click on Ajax Endpoint button and response will be logged in the browser console.
 ![Screenshot](Results-when-user-is-logged-in.png)
 
 Response from Ajax endpoint when user is logged in.
@@ -21,9 +27,7 @@ Response from Ajax endpoint when user is logged out.
 ![Screenshot](archive-page.png)
 Archive page will display 6 projects per page. Url is /projects.
 
-![Screenshot](get-coffee.png)
-Clicking on Get Coffee button will redirect to a coffee image link.
-Use shortcode [min_ec_get_coffee] to display coffee button.
+
 
 ![Screenshot](redirect-function.png)
 
