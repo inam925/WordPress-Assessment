@@ -7,29 +7,25 @@ WordPress Assessment Task
 ### Usage
 
 ![Screenshot](Kanye-quotes-using-a-shortcode.png)
-
 1) Use shortcode [min_ec_kanye_quotes] to display kanye quotes.
 2) Five random quotes will be displayed.
 
 ![Screenshot](Results-when-user-is-logged-in.png)
 
 Response from Ajax endpoint when user is logged in.
+
 ![Screenshot](Results-when-user-is-logged-out.png)
 
 Response from Ajax endpoint when user is logged out.
 
-Shortcode to display countries names & flags is [display_countries].
-ACF field name must be 'gft_countries'.
-1) Create ACF field with name 'gft_countries'
-2) Add desired page to location rule. 
-3) Edit the page to update setting and shortcode will be rendered.
+![Screenshot](archive-page.png)
+Archive page will display 6 projects per page. Url is /projects.
 
-![Screenshot](site_address_contact.png)
+![Screenshot](get-coffee.png)
+Clicking on Get Coffee button will redirect to a coffee image link.
+Use shortcode [min_ec_get_coffee] to display coffee button.
 
-Field names:
-1) Site Logo: 'gft_site_logo'
-2) Address: 'gft_address'
-3) Contact Number: 'gft_contact'
-4) Follow same procedure as countries field.
+![Screenshot](redirect-function.png)
+Function used to redirect user if IP address starts with 77.29.
 
 
