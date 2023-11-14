@@ -26,6 +26,7 @@ Clicking on Get Coffee button will redirect to a coffee image link.
 Use shortcode [min_ec_get_coffee] to display coffee button.
 
 ![Screenshot](redirect-function.png)
+
 Function used to redirect user if IP address starts with 77.29.
 
 
