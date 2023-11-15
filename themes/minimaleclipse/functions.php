@@ -98,18 +98,18 @@ add_action('template_redirect', 'min_ec_ip_redirect');
 function custom_register_projects_post_type()
 {
 	$labels = array(
-		'name'               => _x('Projects', 'post type general name', 'textdomain'),
-		'singular_name'      => _x('Project', 'post type singular name', 'textdomain'),
-		'menu_name'          => _x('Projects', 'admin menu', 'textdomain'),
-		'add_new'            => _x('Add New', 'project', 'textdomain'),
-		'add_new_item'       => __('Add New Project', 'textdomain'),
-		'new_item'           => __('New Project', 'textdomain'),
-		'edit_item'          => __('Edit Project', 'textdomain'),
-		'view_item'          => __('View Project', 'textdomain'),
-		'all_items'          => __('All Projects', 'textdomain'),
-		'search_items'       => __('Search Projects', 'textdomain'),
-		'not_found'          => __('No projects found', 'textdomain'),
-		'not_found_in_trash' => __('No projects found in Trash', 'textdomain'),
+		'name'               => _x('Projects', 'post type general name', 'min_ec_textdomain'),
+		'singular_name'      => _x('Project', 'post type singular name', 'min_ec_textdomain'),
+		'menu_name'          => _x('Projects', 'admin menu', 'min_ec_textdomain'),
+		'add_new'            => _x('Add New', 'project', 'min_ec_textdomain'),
+		'add_new_item'       => __('Add New Project', 'min_ec_textdomain'),
+		'new_item'           => __('New Project', 'min_ec_textdomain'),
+		'edit_item'          => __('Edit Project', 'min_ec_textdomain'),
+		'view_item'          => __('View Project', 'min_ec_textdomain'),
+		'all_items'          => __('All Projects', 'min_ec_textdomain'),
+		'search_items'       => __('Search Projects', 'min_ec_textdomain'),
+		'not_found'          => __('No projects found', 'min_ec_textdomain'),
+		'not_found_in_trash' => __('No projects found in Trash', 'min_ec_textdomain'),
 	);
 
 	$args = array(
@@ -128,7 +128,7 @@ function custom_register_projects_post_type()
 		'project_type',
 		'project',
 		array(
-			'label'        => __('Project Type', 'textdomain'),
+			'label'        => __('Project Type', 'min_ec_textdomain'),
 			'rewrite'      => array('slug' => 'project-type'),
 			'hierarchical' => true,
 		)
