@@ -6,6 +6,8 @@ WordPress Assessment Task
 
 ### Usage
 
+Live Demo: http://www.wordpressassesment.42web.io/
+
 ![Screenshot](Kanye-quotes-using-a-shortcode.png)
 1) Use shortcode [min_ec_kanye_quotes] to display kanye quotes.
 2) Five random quotes will be displayed.
