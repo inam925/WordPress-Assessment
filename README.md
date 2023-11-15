@@ -11,10 +11,12 @@ Live Demo: http://www.wordpressassesment.42web.io/
 ![Screenshot](Kanye-quotes-using-a-shortcode.png)
 1) Use shortcode [min_ec_kanye_quotes] to display kanye quotes.
 2) Five random quotes will be displayed.
+3) Or go to Kanye Quotes page on demo website.
 
 ![Screenshot](get-coffee.png)
 Clicking on Get Coffee button will redirect to a coffee image link.
 Use shortcode [min_ec_get_coffee] to display coffee button.
+OR Click on Get Coffee on demo website.
 
 AJAX EndPoint:
 Click on Ajax Endpoint button and response will be logged in the browser console.
